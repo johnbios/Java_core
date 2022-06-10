@@ -31,7 +31,7 @@ public class Homework1_1 {
      //   System.out.println("Вторая задача");
         //Произвести расчет индекса массы тела (вес) / (рост * рост) используя переменные, вывести на экран
        double imt =  weightValue/(heightValue*heightValue);
-        System.out.printf("%.1f",imt);
+        System.out.printf("%.1f\n",imt);
         //Пример результата вывода на экран:
         //21.0
 
@@ -39,12 +39,15 @@ public class Homework1_1 {
         //Создать из массива букв a,b,c,d,e, строку,вывести на экран , поменять в массиве 4 букву по счету на h,
         //и снова создать строку, вывести на экран
 
-        char ch0 = 'a';
-        char ch1 = 'b';
-        char ch2 = 'c';
-        char ch1 = 'd';
-        char ch2 = 'e';
-        System.out.println("");
+
+
+//test
+        char ch1 = 'a';
+        char ch2 = 'b';
+        char ch3 = 'c';
+        char ch4 = 'd';
+        char ch5 = 'e';
+        System.out.println(ch5);
 
 
     }
