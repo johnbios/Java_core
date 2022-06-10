@@ -42,12 +42,15 @@ public class Homework1_1 {
 
 
 //test
-        char ch1 = 'a';
-        char ch2 = 'b';
-        char ch3 = 'c';
-        char ch4 = 'd';
-        char ch5 = 'e';
-        System.out.println(ch5);
+        char [] myArray = new char[5];
+        myArray[0] = 'a';
+        myArray[1]  = 'b';
+        myArray[2]= 'c';
+        myArray[3]= 'd';
+        myArray[4]= 'e';
+        System.out.println(myArray);
+        myArray[3]='h';
+        System.out.println(myArray);
 
 
     }
